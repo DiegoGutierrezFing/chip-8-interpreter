@@ -1,4 +1,5 @@
-# chip-8-interpreter
+# chip-8-interpreter <span align="center" ><img width="64" src="https://user-images.githubusercontent.com/43502194/161391509-a865027c-ff5e-4fd9-887a-f64f04c35164.png"/></span>
+
 
 ## Descripción
 Interprete/emulador de la plataforma CHIP-8 en Java SE.
