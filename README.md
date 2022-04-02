@@ -55,7 +55,7 @@ Puesto que el proyecto en realidad contiene porciones de codigo basado en la imp
 
 ## Referencias y créditos
 **Documentacion técnica de referencia**
-* Autor: Matthew Mikolay.
+* Autor: Matthew Mikolay  - @mattmikolay 
 * Web: https://github.com/mattmikolay/chip-8/wiki/Mastering-CHIP%E2%80%908
 
 **Implementación usada como referencia inicial en C++ (luego portada a C)**
