@@ -1,11 +1,9 @@
 # chip-8-interpreter
 
-### Descripción
+## Descripción
 Interprete/emulador de la plataforma CHIP-8 en Java SE.
 
-___
-
-### Uso
+## Uso
 En linea de comandos ejecutar
 
 ```bash
@@ -21,9 +19,9 @@ Teclas PC              CHIP-8
 | a s d f |            | 7 8 9 E |
 | z x c v |            | A 0 B F |
 </pre>
-___
 
-### Historia - Background
+
+## Historia - Background
 
 Este proyecto forma parte de uno de los proyectos de emulación de sistemas que tenía deseos de realizar hace un par de años en mis tiempos libres a modo de hobby, siendo el primero que logro concretar debido a su relativa baja complejidad.
 
@@ -35,9 +33,7 @@ Debido a la naturaleza del proyecto (con finalidad más enfocada en la satisfacc
 
 Puesto que el proyecto en realidad contiene porciones de codigo basado en la implementacion de otros autores (en realidad, se trata de un port inicial que realice de un codigo C++ a codigo C, y recientemente a Java), agrego referencias en los ficheros fuente a fin de indicar que porciones del mismo fueron basados en codigo ajeno o en otro tipo de fuentes de información, a fin de dar crédito a quien corresponde por su trabajo, por la inspiración para la implementación de alguna funcionalidad particular o simplemente a modo de referencia bibliográfica.
 
-___
-
-### Capturas de pantalla - Test screenshots
+## Capturas de pantalla - Test screenshots
 
 | Nombre del ROM | Screenshot | 
 | --------- | --------- | 
@@ -46,9 +42,7 @@ ___
 | ***INVADERS*** | <img width="300" src="https://user-images.githubusercontent.com/43502194/161355049-a0959980-fdd3-4306-840b-37c824d91e1a.png"/> <img width="300" src="https://user-images.githubusercontent.com/43502194/161355220-ea7ae39f-7651-4e37-997e-9c06b9a01a0b.png"/>|
 | ***PONG 2*** | <img width="300" src="https://user-images.githubusercontent.com/43502194/161355595-52f37b41-c596-4fac-bda7-995f3643236e.png"/>|
 
-___
-
-### Futuras mejoras a realizar
+## Futuras mejoras a realizar
 
 - [ ] Mejorar la aritmetica de enteros que implementa el interprete: a diferencia de C y C++, Java no cuenta con el calificador ***unsigned*** para los tipos enteros, lo que puede provocar problemas al realizar operaciones aritmeticas cuando se produce desbordamiento.[^1].
 - [ ] Separar en hilos de ejecucion independientes el codigo de la interfaz grafica (GUI) y el interprete: actualmente se ejecutan ambas funcionalidades en el mismo hilo de ejecucion.
@@ -58,5 +52,18 @@ ___
 - [ ] Agregar funcionalidad extendida (soporte a opcodes de Super Chip-8 y/o MegaChip).
 - [ ] Agregar opcion de configuración de teclado.
 - [ ] Agregar funcionalidad de realizar memory dumps - savestates.
+
+## Referencias y créditos
+**Documentacion técnica de referencia**
+* Autor: Matthew Mikolay.
+* Web: https://github.com/mattmikolay/chip-8/wiki/Mastering-CHIP%E2%80%908
+
+**Implementación usada como referencia inicial en C++ (luego portada a C)**
+* Autor: MSc Lawrence Muller.
+* Web: https://multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
+
+**Artículo en wikipedia (en inglés)**
+* Web: https://en.wikipedia.org/wiki/CHIP-8
+
 
 [^1]: En C y C++, si tengo un entero *unsigned char i*, puede tomar el rango de valores de 0 a 255 haciendo "wrap around" pasando por cero cuando se sobrepasa ese valor. Por otra parte, en Java, si tengo un entero *byte i*, i puede tomar el rango de valores de -128 a 127 haciendo "wrap around" pasando por -128 o 127 cuando se sobrepasan esos valores.
