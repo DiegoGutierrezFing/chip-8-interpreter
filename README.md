@@ -2,10 +2,10 @@
 
 
 ## Descripción
-Interprete/emulador de la plataforma CHIP-8 en Java SE.
+Interprete/emulador sencillo de la plataforma CHIP-8 en Java SE.
 
 ## Uso
-En linea de comandos ejecutar
+En linea de comandos ejecutar:
 
 ```bash
 java -jar Chip8_Emulator.jar <path y nombre de ROM a ejecutar>
@@ -46,7 +46,7 @@ Puesto que el proyecto en realidad contiene porciones de codigo basado en la imp
 ## Futuras mejoras a realizar
 
 - [ ] Mejorar la aritmetica de enteros que implementa el interprete: a diferencia de C y C++, Java no cuenta con el calificador ***unsigned*** para los tipos enteros, lo que puede provocar problemas al realizar operaciones aritmeticas cuando se produce desbordamiento.[^1].
-- [X] Separar en hilos de ejecucion independientes el codigo de la interfaz grafica (GUI) y el interprete: actualmente se ejecutan ambas funcionalidades en el mismo hilo de ejecucion.
+- [ ] Separar en hilos de ejecucion independientes el codigo de la interfaz grafica (GUI) y el interprete: actualmente se ejecutan ambas funcionalidades en el mismo hilo de ejecucion.
 - [ ] Modularizar el codigo en funciones: fetch, decode y execute forman parte del mismo bloque de codigo. Seria optimo separarlos en funciones independientes.
 - [ ] Agregar menu de ajustes y de seleccion de ROM a la GUI.
 - [ ] Agregar un debugger y opciones de ejecucion "single stepping".
