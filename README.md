@@ -30,9 +30,9 @@ Este proyecto forma parte de uno de los proyectos de emulación de sistemas que 
 
 Debido a la naturaleza del proyecto (con finalidad más enfocada en la satisfacción y aprendizaje personal que por utilidad práctica) el mismo contiene bastantes errores. Por otra parte el código en si no respeta nociones básicas de modularidad.
 
-> *En otras palabras, es desprolijo pero funciona*
+> *En otras palabras, es bastante desprolijo en cuanto a modularidad pero funciona*
 
-Puesto que el proyecto en realidad contiene porciones de codigo basado en la implementacion de otros autores (en realidad, se trata de un port inicial que realice de un codigo C++ a codigo C, y recientemente a Java), agrego referencias en los ficheros fuente a fin de indicar que porciones del mismo fueron basados en codigo ajeno o en otro tipo de fuentes de información, a fin de dar crédito a quien corresponde por su trabajo, por la inspiración para la implementación de alguna funcionalidad particular o simplemente a modo de referencia bibliográfica.
+Puesto que el proyecto en realidad contiene porciones de código basado en la implementacion de otros autores (en realidad, se trata de un port inicial que realice de un codigo C++ a codigo C, y recientemente a Java), agrego referencias en los ficheros fuente a fin de indicar que porciones del mismo fueron basados en codigo ajeno o en otro tipo de fuentes de información, a fin de dar crédito a quien corresponde por su trabajo, por la inspiración para la implementación de alguna funcionalidad particular o simplemente a modo de referencia bibliográfica.
 
 ## Capturas de pantalla - Test screenshots
 
